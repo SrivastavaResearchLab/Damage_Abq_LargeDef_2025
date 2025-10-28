@@ -1,7 +1,7 @@
 # ABAQUS_GDPF_LargeDeformation
 This repository contains the input files, along with the user material subroutines that were used in the manuscript:
 - K. Alkhoury, S.A. Chester, V. Srivastava, _A finite element implementation of a large deformation
-gradient-damage phase-field theory for fracture with Abaqus user material subroutines_. 2025, In review.
+gradient-damage theory for fracture with Abaqus user material subroutines_. 2025, In review.
 
 Specifically, the code provided here is used to produce the results in Section 4: Applications to fracture problems.
 
