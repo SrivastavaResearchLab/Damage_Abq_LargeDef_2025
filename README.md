@@ -6,7 +6,7 @@ gradient-damage phase-field theory for fracture with Abaqus user material subrou
 Specifically, the code provided here is used to produce the results in Section 4: Applications to fracture problems.
 
 1. Penny-shaped specimen in tension: large deformation rubber
-2. Single-edge notched tension test (SENT): small deformation linear elasticity
+2. Single-edge notched tension (SENT) test: small deformation linear elasticity
 3. Single-edge notched beam (SENB) test: large deformation rate-dependent plasticity
 
 ## Running the codes
