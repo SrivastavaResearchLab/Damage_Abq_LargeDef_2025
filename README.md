@@ -1,6 +1,6 @@
-# ABAQUS_GDPF_LargeDeformation
+# ABAQUS_Abq_LargeDef_2025
 This repository contains the input files, along with the user material subroutines that were used in the manuscript:
-- K. Alkhoury, S.A. Chester, V. Srivastava, _A finite element implementation of a large deformation
+> **K. Alkhoury**, S.A. Chester, V. Srivastava, _A finite element implementation of a large deformation
 gradient-damage theory for fracture with Abaqus user material subroutines_. 2025, Accepted in EFM.
 
 Specifically, the code provided here is used to produce the results in Section 4: Applications to fracture problems.
@@ -18,11 +18,14 @@ Specifically, the code provided here is used to produce the results in Section 4
 
 1. Copy the Fortran subroutine (.for file) and the Abaqus input file (.inp) into the same directory, e.g., Test_Directory.
 2. Open the Abaqus command window.
-3. Change the working directory to Test_Directory:  
+3. Change the working directory to Test_Directory:
+    ```
     cd path/to/Test_Directory
-4. Run Abaqus with the input file and link it to the Fortran subroutine:  
+    ```
+5. Run Abaqus with the input file and link it to the Fortran subroutine:  
+    ```
    abaqus job=JobName inp=InputName.inp user=SubroutineName.for
-
+    ```
 - To run example 4.1: Penny-shaped specimen in tension: large deformation rubber, set  
 input = Penny-Shaped_input_4_1.inp  
 and  
