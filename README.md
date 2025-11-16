@@ -29,7 +29,7 @@ Specifically, the code provided here is used to produce the results in Section 4
 - To run example 4.1: Penny-shaped specimen in tension: large deformation rubber, set  
 `inp = Penny-Shaped_input_4_1.inp` and `user = Penny-Shaped_UMAT_4_1.for`
 
-- To run example 4.2:  Single-edge notched tension test: small deformation linear elasticity, set  
+- To run example 4.2:  Single-edge notched tension (SENT) test: small deformation linear elasticity, set  
 `inp = SENT_input_4_2.inp` and `user = SENT_UMAT_4_2.for`
 
 - To run example 4.3:  Single-edge notched beam (SENB) test: large deformation rate-dependent plasticity, set  
