@@ -1,4 +1,4 @@
-# ABAQUS_Abq_LargeDef_2025
+# Code for A finite element implementation of a large deformation gradient-damage theory for fracture with Abaqus user material subroutines
 This repository contains the input files, along with the user material subroutines that were used in the manuscript:
 > **K. Alkhoury**, S.A. Chester, V. Srivastava, _A finite element implementation of a large deformation
 gradient-damage theory for fracture with Abaqus user material subroutines_. 2025, Accepted in EFM.
@@ -27,16 +27,16 @@ Specifically, the code provided here is used to produce the results in Section 4
    abaqus job=JobName inp=InputName.inp user=SubroutineName.for
     ```
 - To run example 4.1: Penny-shaped specimen in tension: large deformation rubber, set  
-input = Penny-Shaped_input_4_1.inp  
+inp = Penny-Shaped_input_4_1.inp  
 and  
 user = Penny-Shaped_UMAT_4_1.for
 
 - To run example 4.2:  Single-edge notched tension test: small deformation linear elasticity, set  
-input = SENT_input_4_2.inp  
+inp = SENT_input_4_2.inp  
 and  
 user = SENT_UMAT_4_2.for
 
 - To run example 4.3:  Single-edge notched beam (SENB) test: large deformation rate-dependent plasticity, set  
-input = SENB_input_4_3.inp  
+inp = SENB_input_4_3.inp  
 and  
 user = SENB_UMAT_4_3.for  
