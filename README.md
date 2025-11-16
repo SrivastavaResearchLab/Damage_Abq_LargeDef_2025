@@ -10,7 +10,7 @@ Specifically, the code provided here is used to produce the results in Section 4
 3. Single-edge notched beam (SENB) test: large deformation rate-dependent plasticity
 
 ## Running the codes
-**!!Disclaimer!!**  
+❗**Disclaimer**❗  
 > These example codes require a supported Fortran and C/C++ compiler setup to run user subroutines in Abaqus.  
 > Please ensure that you have installed the appropriate compilers compatible with your Abaqus version  
 > (e.g., Intel OneAPI Classic Fortran and Microsoft Visual Studio on Windows, or Intel/GNU compilers on Linux).  
