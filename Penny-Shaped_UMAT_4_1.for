@@ -1,8 +1,10 @@
 ************************************************************************
-!     A finite element implementation of a large deformation gradient-
-!     damage phase-field theory for fracture using Abaqus user material subroutines
-!     Keven Alkhoury, Shawn A. Chester, and Vikas Srivastava
-!     Keven Alkhoury, September 2025, Abaqus 2024, In review
+!     Alkhoury, K., Chester, S. A., & Srivastava, V. (2026). A finite
+!	  element implementation of a large deformation gradient-damage
+!	  theory for fracture with Abaqus user material subroutines.
+! 	  Engineering Fracture Mechanics, 331, 111677. 
+!     https://doi.org/10.1016/j.engfracmech.2025.111677
+!     Keven Alkhoury, November 2025, Abaqus 2024
 ************************************************************************
 !     State Variables
 !     --------------------------------------------------------------
