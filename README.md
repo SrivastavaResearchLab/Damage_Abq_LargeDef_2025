@@ -1,7 +1,9 @@
 # Code for A finite element implementation of a large deformation gradient-damage theory for fracture with Abaqus user material subroutines
 This repository contains the input files, along with the user material subroutines that were used in the manuscript:
-> **K. Alkhoury**, S.A. Chester, V. Srivastava, _A finite element implementation of a large deformation
-gradient-damage theory for fracture with Abaqus user material subroutines_. 2025, Accepted in EFM.
+
+>**Alkhoury, K.**, Chester, S. A., & Srivastava, V. (2026). A finite element implementation of a large deformation gradient-damage theory for fracture with Abaqus user material subroutines. Engineering Fracture Mechanics, 331, 111677. https://doi.org/10.1016/j.engfracmech.2025.111677
+>
+If you use this code, or build upon any part of it, **please cite the publication above**.
 
 Specifically, the code provided here is used to produce the results in Section 4: Applications to fracture problems.
 
@@ -33,4 +35,7 @@ Specifically, the code provided here is used to produce the results in Section 4
 `inp = SENT_input_4_2.inp` and `user = SENT_UMAT_4_2.for`
 
 - To run example 4.3:  Single-edge notched beam (SENB) test: large deformation rate-dependent plasticity, set  
-`inp = SENB_input_4_3.inp` and `user = SENB_UMAT_4_3.for`  
+`inp = SENB_input_4_3.inp` and `user = SENB_UMAT_4_3.for`
+
+>For any questions regarding the code or the implementation, please contact **keven_alkhoury@brown.edu**.
+
